@@ -91,7 +91,7 @@ function consoleaction(args, rights, sessionid, parent) {
                 serverurl: mesh.ServerUrl.replace('agent.ashx', 'meshrelay.ashx'),
                 remotenodeid: args.nodeid,
                 remoteport: 3389, //args.remoteport,
-                localport: 3389 //args.localport == null ? 0 : args.localport
+                localport: args.localport == null ? 0 : args.localport
             };
             var was_error = false;
             try {
@@ -221,7 +221,7 @@ function RoutePlusRoute() {
             options.rejectUnauthorized = false;
             c.websocket = http.request(options);
             c.websocket.tcp = c;
-            c.websocket.tunneling = false;
+            c.websocket.tunneling = true;
             c.websocket.upgrade = OnWebSocket;
             c.websocket.on('error', function (e) { dbg("ERROR: " + JSON.stringify(e)); });
             c.websocket.end();
