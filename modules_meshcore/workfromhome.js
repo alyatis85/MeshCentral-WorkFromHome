@@ -91,7 +91,7 @@ function consoleaction(args, rights, sessionid, parent) {
                 serverurl: mesh.ServerUrl.replace('agent.ashx', 'meshrelay.ashx'),
                 remotenodeid: args.nodeid,
                 remoteport: 3389, //args.remoteport,
-                localport: args.localport == null ? 0 : args.localport
+                localport: 3389 //args.localport == null ? 0 : args.localport
             };
             var was_error = false;
             try {
@@ -157,7 +157,7 @@ function getMacPath() {
     child.waitExit();
 
     var path = child.stdout.str.trim();
-    path += '/Desktop/Work_Computer.rdp';
+    path += '/Desktop/Teletravail.rdp';
     return path;
 }
 function makeRDPShortcut(actualLocalPort) {
@@ -165,7 +165,7 @@ function makeRDPShortcut(actualLocalPort) {
         return; // N/A
     }
     dbg('checking rdp shortcut');
-    var path = '\\Users\\Public\\Desktop\\Work_Computer.rdp';
+    var path = '\\Users\\Public\\Desktop\\Teletravail.rdp';
     if (process.platform == 'darwin') {
         path = getMacPath();
     }
@@ -190,7 +190,7 @@ function makeRDPShortcut(actualLocalPort) {
 
 function deleteRDPShortcut() {
     dbg('deleting shortcut')
-    var path = '\\Users\\Public\\Desktop\\Work_Computer.rdp';
+    var path = '\\Users\\Public\\Desktop\\Teletravail.rdp';
     if (process.platform != 'win32') {
         path = getMacPath();
     }
