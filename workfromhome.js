@@ -23,7 +23,7 @@ module.exports.workfromhome = function (parent) {
     
     obj.resetQueueTimer = function() {
         clearTimeout(obj.intervalTimer);
-        obj.intervalTimer = setInterval(obj.queueRun, 3 * 60 * 60 * 1000); // every 3 hours (cookies are good for 4)
+        obj.intervalTimer = setInterval(obj.queueRun, 2 * 60 * 60 * 1000); // every 2 hours (cookies are good for 4)
     };
     
     obj.server_startup = function() {

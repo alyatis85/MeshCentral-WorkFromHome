@@ -1,18 +1,18 @@
 {
-  "name": "Work From Home",
+  "name": "Teletravail",
   "shortName": "workfromhome",
-  "version": "0.0.5",
-  "author": "Ryan Blenis",
-  "description": "RDP Map one agent to another.",
+  "version": "0.0.5-e",
+  "author": "B.beraud - alyatis",
+  "description": "Module de connexion RDP agent à agent.",
   "hasAdminPanel": false,
-  "homepage": "https://github.com/ryanblenis/MeshCentral-WorkFromHome",
-  "changelogUrl": "https://raw.githubusercontent.com/ryanblenis/MeshCentral-WorkFromHome/master/changelog.md",
-  "configUrl": "https://raw.githubusercontent.com/ryanblenis/MeshCentral-WorkFromHome/master/config.json",
-  "downloadUrl": "https://github.com/ryanblenis/MeshCentral-WorkFromHome/archive/master.zip",
+  "homepage": "https://github.com/alyatis85/MeshCentral-WorkFromHome",
+  "changelogUrl": "https://raw.githubusercontent.com/alyatis85/MeshCentral-WorkFromHome/patch-1/changelog.md",
+  "configUrl": "https://raw.githubusercontent.com/alyatis85/MeshCentral-WorkFromHome/patch-1/config.json",
+  "downloadUrl": "https://github.com/alyatis85/MeshCentral-WorkFromHome/archive/patch-1.zip",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ryanblenis/MeshCentral-WorkFromHome.git"
+    "url": "https://github.com/alyatis85/MeshCentral-WorkFromHome.git"
   },
-  "versionHistoryUrl": "https://api.github.com/repos/ryanblenis/MeshCentral-WorkFromHome/tags",
-  "meshCentralCompat": ">=0.4.6-r"
+  "versionHistoryUrl": "https://api.github.com/repos/alyatis85/MeshCentral-WorkFromHome/tags",
+  "meshCentralCompat": ">=0.5.8"
 }
