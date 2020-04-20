@@ -3,7 +3,7 @@
   "shortName": "workfromhome",
   "version": "0.0.5-e",
   "author": "B.beraud - alyatis",
-  "description": "RDP Map one agent to another.",
+  "description": "Module de connexion RDP agent à agent.",
   "hasAdminPanel": false,
   "homepage": "https://github.com/alyatis85/MeshCentral-WorkFromHome",
   "changelogUrl": "https://raw.githubusercontent.com/alyatis85/MeshCentral-WorkFromHome/patch-1/changelog.md",
