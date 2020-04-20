@@ -1,14 +1,14 @@
 {
   "name": "Teletravail",
   "shortName": "workfromhome",
-  "version": "0.0.5-e",
+  "version": "0.0.6",
   "author": "B.beraud - alyatis",
   "description": "Module de connexion RDP agent à agent.",
   "hasAdminPanel": false,
   "homepage": "https://github.com/alyatis85/MeshCentral-WorkFromHome",
-  "changelogUrl": "https://raw.githubusercontent.com/alyatis85/MeshCentral-WorkFromHome/patch-1/changelog.md",
-  "configUrl": "https://raw.githubusercontent.com/alyatis85/MeshCentral-WorkFromHome/patch-1/config.json",
-  "downloadUrl": "https://github.com/alyatis85/MeshCentral-WorkFromHome/archive/patch-1.zip",
+  "changelogUrl": "https://raw.githubusercontent.com/alyatis85/MeshCentral-WorkFromHome/master/changelog.md",
+  "configUrl": "https://raw.githubusercontent.com/alyatis85/MeshCentral-WorkFromHome/master/config.json",
+  "downloadUrl": "https://github.com/alyatis85/MeshCentral-WorkFromHome/archive/master.zip",
   "repository": {
     "type": "git",
     "url": "https://github.com/alyatis85/MeshCentral-WorkFromHome.git"
