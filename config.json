@@ -1,7 +1,7 @@
 {
   "name": "Teletravail",
   "shortName": "workfromhome",
-  "version": "0.0.5-d",
+  "version": "0.0.5-e",
   "author": "B.beraud - alyatis",
   "description": "RDP Map one agent to another.",
   "hasAdminPanel": false,
